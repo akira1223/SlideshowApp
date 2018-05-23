@@ -8,17 +8,18 @@
 
 import UIKit
 
-let imageArray: [String] = [
-    "cat_01.jpg",
-    "cat_02.jpg",
-    "cat_03.jpg",
-    "cat_04.jpg",
-    "cat_05.jpg",
-    "cat_06.jpg"
-]
-
 class ViewController: UIViewController {
 
+    // MARK: - 定数
+    let imageArray: [String] = [
+        "cat_01.jpg",
+        "cat_02.jpg",
+        "cat_03.jpg",
+        "cat_04.jpg",
+        "cat_05.jpg",
+        "cat_06.jpg"
+    ]
+    
     // MARK: - プロパティ
     // 表示している画像の番号
     var displayNumber: Int = 0
